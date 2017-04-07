@@ -13,19 +13,7 @@ public class Actividad11 {
      */
     public static void main(String[] args)  {
         inicio();
-        JFrame frame = new JFrame();
-        JOptionPane.showMessageDialog(frame, "ERROR_MESSAGE", " MENSAJE DE ERROR ", 
-                                        JOptionPane.ERROR_MESSAGE);
-        JOptionPane.showMessageDialog(frame, "INFORMATION_MESSAGE", " MENSAJE INFORMATIVO ", 
-                                        JOptionPane.INFORMATION_MESSAGE);
-        JOptionPane.showMessageDialog(frame, "PLAIN_MESSAGE", " MENSAJE SENCILLO", 
-                                        JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showMessageDialog(frame, "QUESTION_MESSAGE", " MENSAJE DE PREGUNTA ", 
-                                        JOptionPane.QUESTION_MESSAGE);
-        JOptionPane.showMessageDialog(frame, "WARNING_MESSAGE", " MENSAJE DE ADVERTENCIA ", 
-                                        JOptionPane.WARNING_MESSAGE);
-	
-
+        iconos();
         ventanaMensaje();
         inputDialog();
         confirmDialog();
@@ -68,5 +56,18 @@ public class Actividad11 {
     }
     public static void inicio(){
         JOptionPane.showMessageDialog(null, "Bienvenido a mi ventana, los tipos de iconos para JOptionPane son:");
+    }
+    public static void iconos(){
+        JFrame frame = new JFrame();
+        JOptionPane.showMessageDialog(frame, "ERROR_MESSAGE", " MENSAJE DE ERROR ", 
+                                        JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(frame, "INFORMATION_MESSAGE", " MENSAJE INFORMATIVO ", 
+                                        JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(frame, "PLAIN_MESSAGE", " MENSAJE SENCILLO", 
+                                        JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(frame, "QUESTION_MESSAGE", " MENSAJE DE PREGUNTA ", 
+                                        JOptionPane.QUESTION_MESSAGE);
+        JOptionPane.showMessageDialog(frame, "WARNING_MESSAGE", " MENSAJE DE ADVERTENCIA ", 
+                                        JOptionPane.WARNING_MESSAGE);
     }
 }
