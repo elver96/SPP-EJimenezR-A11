@@ -1,5 +1,4 @@
 package actividad.pkg11;
-import java.io.PrintStream;
 import javax.swing.JOptionPane;
 import javax.swing.JFrame;
 /**
